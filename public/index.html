@@ -349,26 +349,37 @@
 
 <body>
 
-  <div id="Explination">
+  <div class="explination">
 
   </div>
 
-  <div id="Form">
-    <form id="ScrollMessage">
-      Type your message here: <input type="text" name="Message" value="hello world"><br /> Dot Style:<select name="DotStyle">
-    <option value="*" selected>*</option>
-    <option value="#">#</option>
-    <option value="+">+</option>
-    <option value="&#9830;">&#9830;</option>
-  </select> Color:
+  <div class="form">
 
-      <select name="ColorStyle">
-    <option value="white" selected>White</option>
-    <option value="red">Red</option>
-    <option value="blue">Blue</option>
-    <option value="lime">Green</option>
-    <option value="yellow">Yellow</option>
-  </select>
+    <form id="ScrollMessage">
+      <div class="text">
+        <div class="text-tag">Type your message here:</div>
+        <input class="text-box" type="text" name="Message" value="hello world">
+      </div>
+      <div class="style">
+        <div class="tag">Dot Style:</div>
+        <select class="dropdown" name="DotStyle">
+            <option value="*" selected>*</option>
+            <option value="#">#</option>
+            <option value="+">+</option>
+            <option value="&#9830;">&#9830;</option>
+          </select>
+      </div>
+
+      <div class="color">
+        <div class="tag">Color:</div>
+        <select class="dropdown" name="ColorStyle">
+            <option value="white" selected>White</option>
+            <option value="red">Red</option>
+            <option value="blue">Blue</option>
+            <option value="lime">Green</option>
+            <option value="yellow">Yellow</option>
+          </select>
+      </div>
 
     </form>
 
