@@ -4,3 +4,34 @@
 // $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'font-awesome/scss/font-awesome';
 @import 'box-sizing';
+
+#Explination {
+  width: 90%;
+}
+
+#Form {
+  position: relative;
+  float: left;
+  width: 90%;
+  border-style: medium;
+  border-color: #000000;
+  background-color: #dddddd;
+  height: 100px;
+  margin: 20px;
+  padding: 10px;
+}
+
+#output {
+  position: relative;
+  float: bottom;
+  width: 90%;
+  color: #ffffff;
+  overflow-x: scroll;
+  background-color: #000000;
+  height: 150px;
+  margin: 20px;
+  padding: 10px;
+  display: block;
+  font-family: monospace;
+  line-height: 8px;
+}
