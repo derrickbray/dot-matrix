@@ -360,30 +360,33 @@
         <div class="text-tag">Type your message here:</div>
         <input class="text-box" type="text" name="Message" value="hello world">
       </div>
-      <div class="style">
-        <div class="tag">Dot Style:</div>
-        <select class="dropdown" name="DotStyle">
-            <option value="*" selected>*</option>
-            <option value="#">#</option>
-            <option value="+">+</option>
-            <option value="&#9830;">&#9830;</option>
-          </select>
-      </div>
 
-      <div class="color">
-        <div class="tag">Color:</div>
-        <select class="dropdown" name="ColorStyle">
-            <option value="white" selected>White</option>
-            <option value="red">Red</option>
-            <option value="blue">Blue</option>
-            <option value="lime">Green</option>
-            <option value="yellow">Yellow</option>
-          </select>
+      <div class="flex">
+        <div class="style">
+          <div class="tag">Dot Style:</div>
+          <select class="dropdown" name="DotStyle">
+              <option value="*" selected>*</option>
+              <option value="#">#</option>
+              <option value="+">+</option>
+              <option value="&#9830;">&#9830;</option>
+            </select>
+        </div>
+
+        <div class="color">
+          <div class="tag">Color:</div>
+          <select class="dropdown" name="ColorStyle">
+              <option value="white" selected>White</option>
+              <option value="red">Red</option>
+              <option value="blue">Blue</option>
+              <option value="lime">Green</option>
+              <option value="yellow">Yellow</option>
+            </select>
+        </div>
       </div>
 
     </form>
 
-    <button onclick="LoadMessage();">Run Message</button> <br />
+    <button class="btn" onclick="LoadMessage();">Run Message</button> <br />
 
   </div>
 
