@@ -1,0 +1,21 @@
+.form {
+  margin-bottom: 2rem;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+#output {
+  display: block;
+  position: relative;
+  width: 90%;
+  height: 100px;
+  padding: 10px;
+  background: #000;
+  color: #fff;
+  font-family: monospace;
+  line-height: 8px;
+  overflow-x: scroll;
+}

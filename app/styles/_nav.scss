@@ -1,0 +1,11 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background: black;
+  color: white;
+
+  &-links {
+    padding: 1rem;
+  }
+}
