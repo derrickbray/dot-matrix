@@ -2,9 +2,62 @@
   margin-bottom: 2rem;
 }
 
+.text {
+  margin-top: 2rem;
+  text-align: center;
+
+  &-tag {
+    font-size: 1.5rem;
+  }
+  &-box {
+    width: 90%;
+    padding: 1rem;
+    border: $c-background 1px solid;
+    border-radius: 0.4rem;
+    outline: none;
+    background: $c-background;
+    color: $c-white;
+    font-size: 1rem;
+    // border: 0;
+
+  }
+}
+
 .flex {
   display: flex;
   justify-content: space-around;
+  margin-top: 2rem;
+}
+
+.style {
+  width: 30%;
+}
+
+.color {
+  width: 30%;
+}
+
+.tag{
+  font-size: 1.5rem;
+}
+
+.dropdown {
+  width: 100%;
+  font-size: 1rem;
+}
+
+.btn {
+  margin: 2rem 0;
+  text-align: center;
+
+  &-btn {
+    padding: 0.5rem;
+    border: 0;
+    border-radius: 0.4rem;
+    outline: none;
+    background: $c-background;
+    color: $c-white;
+  }
 }
 
 #output {
@@ -12,8 +65,10 @@
   position: relative;
   width: 90%;
   height: 100px;
+  margin: auto;
   padding: 10px;
-  background: #000;
+  border-radius: 0.4rem;
+  background: $c-background;
   color: #fff;
   font-family: monospace;
   line-height: 8px;

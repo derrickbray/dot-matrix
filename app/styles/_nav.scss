@@ -2,10 +2,14 @@
   display: flex;
   justify-content: space-between;
   padding: 1rem;
-  background: black;
-  color: white;
+  background: $c-background;
+  color: $c-white;
 
   &-links {
     padding: 1rem;
+
+    &__link {
+      margin-left: 1rem;
+    }
   }
 }
