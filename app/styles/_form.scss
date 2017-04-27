@@ -16,7 +16,7 @@
     border-radius: 0.4rem;
     outline: none;
     background: $c-background;
-    color: $c-white;
+    color: $c-text;
     font-size: 1rem;
     // border: 0;
 
@@ -43,6 +43,9 @@
 
 .dropdown {
   width: 100%;
+  height: 52px;
+  background: $c-background;
+  color: $c-text;
   font-size: 1rem;
 }
 
@@ -51,12 +54,15 @@
   text-align: center;
 
   &-btn {
+    width: 33%;
+    height: 52px;
     padding: 0.5rem;
     border: 0;
     border-radius: 0.4rem;
     outline: none;
     background: $c-background;
-    color: $c-white;
+    color: $c-text;
+    font-size: 1rem;
   }
 }
 
