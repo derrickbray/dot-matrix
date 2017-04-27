@@ -40,6 +40,7 @@
 .tag {
   color: $c-text;
   font-size: 1.5rem;
+  text-align: center;
 }
 
 .dropdown {
@@ -63,9 +64,10 @@
     border: 0;
     border-radius: 0.4rem;
     outline: none;
-    background: $c-background;
-    color: $c-text;
+    background: $c-text;
+    color: $c-white;
     font-size: 1rem;
+    cursor: pointer;
   }
 }
 
